@@ -1,4 +1,4 @@
-public class Carro {
+public class Car {
 
 
         /*Atributos: cor  modelo, capacidade tanque*/
@@ -13,11 +13,11 @@ public class Carro {
      */
 
     // 2 Contrutores em sobrecarga
-    public Carro() {
+    public Car() {
 
     }
 
-    public Carro(String cor, String modelo, int capacidadeTanque) {
+    public Car(String cor, String modelo, int capacidadeTanque) {
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
